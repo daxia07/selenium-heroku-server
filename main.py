@@ -1,5 +1,5 @@
 from selenium import webdriver
-import ospi
+import os
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
