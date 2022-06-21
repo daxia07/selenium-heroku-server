@@ -12,3 +12,4 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
 driver.get("https://www.google.com")
 # print(driver.page_source)
+print("OK")
